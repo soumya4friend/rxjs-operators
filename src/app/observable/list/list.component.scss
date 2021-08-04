@@ -1,0 +1,29 @@
+ul.list{
+  list-style-type: none;
+  margin: 40px 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+ul.list li{
+  width: calc(25% - 20px);
+  margin: 10px;
+}
+ul.list li a{
+  background: #f8f8f8;
+  color: #ee0e0e;
+  border: 1px solid black;
+  line-height: 1;
+  display: flex;
+  transition: .3s ease all;
+  min-height: 120px;
+  justify-content: center;
+  align-items: center;
+}
+
+ul.list li a:hover{
+  background: rgb(77, 230, 222);
+  color:rgb(240, 6, 17);
+  box-shadow: 0 0 60px rgb(55, 40, 189) inset;
+  text-decoration: none;
+}

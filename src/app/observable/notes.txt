@@ -1,0 +1,16 @@
+observable stream
+   -user input(button click event)
+   -http request
+   -array
+   -object
+
+observable handle(subscribe)
+  -data
+  -error
+  -completion
+
+  .subscribe{
+    (data)=> console.log(data);
+    (error)=> console.log(error);
+    ()=> console.log(completion)
+  }
